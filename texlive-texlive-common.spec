@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-common.do
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 TeXLive texlive-common package.
@@ -38,7 +36,6 @@ TeXLive texlive-common package.
 %doc %{_texmfdir}/doc/texlive/texlive-common/tlmgr-paper-options.png
 %doc %{_texmfdir}/doc/texlive/texlive-common/tray-menu.png
 %doc %{_texmfdir}/doc/texlive/texlive-common/wizard-w32.png
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,5 +46,3 @@ TeXLive texlive-common package.
 %install
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf %{buildroot}%{_datadir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
