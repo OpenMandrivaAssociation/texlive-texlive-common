@@ -1,12 +1,12 @@
-# revision 23017
+# revision 26673
 # category TLCore
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-common
-Version:	20111104
-Release:	2
+Version:	20120808
+Release:	1
 Summary:	TeX Live documentation (common elements)
 Group:		Publishing
 URL:		http://tug.org/texlive
