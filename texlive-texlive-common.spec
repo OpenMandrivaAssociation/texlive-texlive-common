@@ -1,12 +1,12 @@
-# revision 30524
+# revision 34047
 # category TLCore
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-common
-Version:	20131009
-Release:	6
+Version:	20140621
+Release:	1
 Summary:	TeX Live documentation (common elements)
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -29,6 +29,7 @@ TeXLive texlive-common package.
 %doc %{_texmfdistdir}/doc/texlive/texlive-common/examples/ex6b.tex
 %doc %{_texmfdistdir}/doc/texlive/texlive-common/examples/ex6c.tex
 %doc %{_texmfdistdir}/doc/texlive/texlive-common/install-lnx-main.png
+%doc %{_texmfdistdir}/doc/texlive/texlive-common/nsis_installer.png
 %doc %{_texmfdistdir}/doc/texlive/texlive-common/psview.png
 %doc %{_texmfdistdir}/doc/texlive/texlive-common/stdcoll.png
 %doc %{_texmfdistdir}/doc/texlive/texlive-common/tlmgr-general-options.png
