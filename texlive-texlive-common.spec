@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-common
-Version:	20170505
+Version:	20180326
 Release:	1
 Summary:	TeX Live documentation (common elements)
 Group:		Publishing
