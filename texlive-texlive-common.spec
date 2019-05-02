@@ -5,8 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-common
-Version:	20180326
-Release:	2
+Version:	20190320
+Release:	1
 Summary:	TeX Live documentation (common elements)
 Group:		Publishing
 URL:		http://tug.org/texlive
