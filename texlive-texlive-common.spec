@@ -1,18 +1,12 @@
-# revision 34047
-# category TLCore
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-texlive-common
-Version:	20190320
+Version:	63925
 Release:	1
 Summary:	TeX Live documentation (common elements)
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-common.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-common.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-common.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-common.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -22,25 +16,11 @@ TeXLive texlive-common package.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/texlive/index.html
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/examples/ex5.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/examples/ex6.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/examples/ex6a.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/examples/ex6b.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/examples/ex6c.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/install-lnx-main.png
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/nsis_installer.png
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/psview.png
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/stdcoll.png
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/tlmgr-general-options.png
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/tlmgr-gui.png
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/tlmgr-paper-options.png
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/tray-menu.png
-%doc %{_texmfdistdir}/doc/texlive/texlive-common/wizard-w32.png
+%doc %{_texmfdistdir}/doc/texlive
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
