@@ -1,6 +1,6 @@
 Name:		texlive-texlive-common
 Version:	63925
-Release:	1
+Release:	2
 Summary:	TeX Live documentation (common elements)
 Group:		Publishing
 URL:		http://tug.org/texlive
