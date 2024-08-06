@@ -1,5 +1,5 @@
 Name:		texlive-texlive-common
-Version:	68510
+Version:	71543
 Release:	1
 Summary:	TeX Live documentation (common elements)
 Group:		Publishing
